@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Raju Dance Academy
+    style
+      include style.css
+  body
+    nav#navbar 
+        ul
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact Us ]
+
+    section#introSection 
+        div Welcome to Raju's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection 
+            div.card-box   
+                div.card-img 
+                     img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ZvIbt7aWBeEeKt7X3lquxSf4b0pJWBJuEA&usqp=CAU")
+                div.card-content     
+                     p This is the best dance academy
+    
+        div.card
+            h3 Dance the way you like 
+            div.card-box   
+                div.card-img 
+                     img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKDUeUMVNX-XbkENu7JWyiczLiw7FTLTdbbQ&usqp=CAU")
+                div.card-content     
+                     p This is the best dance academy
+
+        div.card
+            h3 Expert Teaching
+            div.card-box   
+                div.card-img 
+                     img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFKZFdDe8HdMWudXIdvil4FC8JFl9nqppMIg&usqp=CAU")
+                div.card-content     
+                     p This is the best dance academy
+    
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsor
+            img(src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-what-you-need-know-before-rebranding-11.png",
+            alt="Sponsor Image", class="spImage")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSBciRc2-t4d7yJG5vuzx9rVCowVQsKCwL8w&usqp=CAU",
+            alt="Sponsor Image", class="spImage")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7dkGq21ols__w3nhSw_sylM_99px3vqovzobfjIxx_dUqA0HcUVpwmKZXVEYUUTc-p1E&usqp=CAU",
+            alt="Sponsor Image", class="spImage")
+            img(src="data:image/jpeg;base64,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",
+            alt="Sponsor Image", class="spImage")            
+    footer#footer   
+        | Copyright © 2022 rajudanceacademy.com | All rights reserved
+
+    script 
+        index.js
+    

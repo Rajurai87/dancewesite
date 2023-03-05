@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lora&display=swap');
+.container{
+    min-height: 84vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.container h1{
+    
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 35px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid #996969;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 7px 17px;
+    font-size: 20px;
+    background-color: #4787ed;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+}
